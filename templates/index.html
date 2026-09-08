@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website Pertama Rivan</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/experience">Experience</a>
+    <a href="/projects">Projects</a>
+    <a href="/certificate">Certificates</a>
+    <a href="/contact">Contact</a>
+</nav>
+
+<div class="hero">
+
+    <img src="{{ url_for('static', filename='images/Foto Saya di site.jpeg') }}"
+         class="side-image">
+
+    <div class="content">
+
+        <h1>Greetings From Rivan!</h1>
+
+        <p>Welcome to the Rivanza Rahmantiar Maftuchan website.</p>
+
+        <h2>About Me</h2>
+
+        <p>
+            Naval Engineer who is passionate about Python,
+            Flask, Web Development, and Ship Engineering.
+        </p>
+
+    </div>
+
+    <img src="{{ url_for('static', filename='images/Foto kapal.jpeg') }}"
+         class="side-image">
+
+</div>
+
+</body>
+</html>

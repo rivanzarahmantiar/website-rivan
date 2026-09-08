@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Certificates</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<!-- ===================== -->
+<!-- NAVBAR -->
+<!-- ===================== -->
+
+<nav>
+
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/experience">Experience</a>
+    <a href="/projects">Projects</a>
+    <a href="/certificate">Certificates</a>
+    <a href="/contact">Contact</a>
+
+</nav>
+
+
+<!-- ===================== -->
+<!-- CERTIFICATE HERO -->
+<!-- ===================== -->
+
+<section class="certificate-hero">
+
+    <img src="{{ url_for('static', filename='images/WhatsApp Image 2026-08-19 at 08.37.28.jpeg') }}"
+         alt="Rivan">
+
+    <div class="certificate-overlay">
+
+        <h1>Certificates</h1>
+
+        <p>
+            Professional training and certifications
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ===================== -->
+<!-- CERTIFICATE CONTENT -->
+<!-- ===================== -->
+
+<section class="certificate-content">
+
+
+    <!-- INSB -->
+
+    <div class="certificate-card">
+
+        <h2>INSB Surveyor Certificate</h2>
+
+        <p>
+            Ship Surveyor Training Certificate.
+        </p>
+
+        <a href="{{ url_for('static', filename='certificates/mss_tc_certificate_rivanza.pdf') }}"
+           target="_blank"
+           class="btn">
+
+            📄 View Certificate
+
+        </a>
+
+    </div>
+
+
+    <!-- DPA -->
+
+    <div class="certificate-card">
+
+        <h2>DPA Training Certificate</h2>
+
+        <p>
+            DPA Training Certificate.
+        </p>
+
+        <a href="{{ url_for('static', filename='certificates/dpa_tc_certificate_rivanza.pdf') }}"
+           target="_blank"
+           class="btn">
+
+            📄 View Certificate
+
+        </a>
+
+    </div>
+
+
+</section>
+
+
+</body>
+
+</html>
